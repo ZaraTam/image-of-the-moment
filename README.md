@@ -1,1 +1,1 @@
-# image-of-the-moment
+# Image of the moment
