@@ -4,7 +4,7 @@ let images = [
     "https://media.giphy.com/media/3o7abm56qOKRf3tl04/giphy.gif"
 ];
 
-function getImage(images) {
+function getImage() {
     let randomNumber = Math.floor(Math.random() * images.length);
     let image = images[randomNumber];
     return image;
@@ -12,7 +12,7 @@ function getImage(images) {
 
 function renderImage() {
     var img = document.createElement("img");
-    img.setAttribute("src", getImage(images));
+    img.setAttribute("src", getImage());
     img.setAttribute("alt", "Image of the moment");
     document.body.appendChild(img);
 }
