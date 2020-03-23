@@ -1,9 +1,10 @@
 # Image of the moment
 
+Get a new image when you refresh the page
 
-Visit https://zaratam.github.io/image-of-the-moment/
+Website: https://zaratam.github.io/image-of-the-moment/
 
-When you refresh the page, you'll get a random image from the image collection in `js/images.js`
+The image collection is in `js/images.js`
 
 <br>
 
